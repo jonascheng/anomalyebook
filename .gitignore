@@ -1,0 +1,11 @@
+# pyenv
+.python-version
+.env
+.ipynb_checkpoints/
+
+# pycache
+**/__pycache__/
+
+# MacOS
+.DS_Store
+
