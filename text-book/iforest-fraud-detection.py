@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 
 # Load the dataset
-data = pd.DataFrame(‘/content/InsFraudDataset6.csv’)
+data = pd.read_csv('InsFraudDataset6.csv')
 
 # Train Isolation Forest
 model = IsolationForest(contamination=0.25, random_state=42)
