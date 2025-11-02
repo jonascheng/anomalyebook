@@ -2,6 +2,8 @@
 
 本專案彙整多種異常偵測與時間序列分析技術，包含理論、實作範例、合成與真實資料集，適合自學或教學使用。
 
+內容取材自 [Anomaly Detection: Through Machine Learning, Deep Learning and AutoML](https://www.amazon.com/Anomaly-Detection-Through-Machine-Learning-ebook/dp/B0D5B991G5) 及網路教學，透過範例介紹常見且可能應用在 OT 場域的異常偵測算法。
+
 ## 教學重點摘要
 - **異常偵測方法**：涵蓋統計、機器學習、深度學習（Autoencoder, GAN）等多元技術。
 - **合成資料生成**：展示如何產生含異常的多維度時間序列資料，並進行視覺化。
