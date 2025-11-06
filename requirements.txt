@@ -1,0 +1,13 @@
+# for jupyter
+jupyterlab
+
+numpy==1.26.4
+pandas
+scikit-learn
+statsmodels
+hdbscan
+shap
+pyod
+torch
+
+matplotlib

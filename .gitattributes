@@ -1,0 +1,3 @@
+text-book/kddcup.data.corrected.csv filter=lfs diff=lfs merge=lfs -text
+text-book/Anomaly[[:space:]]Time[[:space:]]Series[[:space:]]Data[[:space:]]-[[:space:]]Used[[:space:]]in[[:space:]]PowerBI.csv filter=lfs diff=lfs merge=lfs -text
+text-book/InsFraudDataset6.csv filter=lfs diff=lfs merge=lfs -text
