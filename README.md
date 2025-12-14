@@ -5,13 +5,15 @@
 內容取材自 [Anomaly Detection: Through Machine Learning, Deep Learning and AutoML](https://www.amazon.com/Anomaly-Detection-Through-Machine-Learning-ebook/dp/B0D5B991G5) 及網路教學，透過範例介紹常見且可能應用在 OT 場域的異常偵測算法。
 
 ## 教學重點摘要
-- **異常偵測方法**：涵蓋統計、機器學習、深度學習（Autoencoder, GAN）等多元技術。
-- **合成資料生成**：展示如何產生含異常的多維度時間序列資料，並進行視覺化。
+- **異常偵測方法**：涵蓋統計、機器學習（Autoencoder）等多元技術。
+- **合成資料生成**：展示如何產生含異常的多維度資料，並進行視覺化。
 - **模型實作流程**：每個 notebook 皆包含資料準備、模型訓練、異常偵測、成效分析與視覺化。
-- **簡化流程**：部分範例直接採用 pyod 套件，快速建構異常偵測模型，降低複雜度。
+- **簡化流程**：部分範例直接採用 pyod 套件，快速建構異常偵測模型（Autoencoder），降低複雜度。
 - **成效評估**：利用 sklearn classification_report 等工具，量化模型偵測能力。
 
 ## 目錄與內容簡介
+
+## Week1
 
 ### 01_z-score-identify-outliers.ipynb
 - 利用 Z-score、IQR、DBSCAN 等方法辨識異常值。
@@ -21,6 +23,8 @@
 - 比較 DBSCAN 與 HDBSCAN 在異常偵測上的差異。
 - 展示密度型分群演算法的優缺點。
 
+## Week2
+
 ### 03_stl-decomposition.ipynb
 - STL 分解時間序列，提取趨勢、季節性與殘差。
 - 殘差部分可用於異常偵測。
@@ -28,6 +32,8 @@
 ### 05_iforest-fraud-detection.ipynb
 - Isolation Forest 結合 SHAP 進行詐欺偵測與模型解釋。
 - 適合理解 ensemble 與可解釋性方法。
+
+## Week3
 
 ### 06_autoencoder-anomaly-detection.ipynb
 - 以 pyod AutoEncoder 建構多維度異常偵測模型。
@@ -41,6 +47,9 @@
 - 資料標準化與 PCA 2D/3D 降維視覺化，觀察正常與異常分布。
 - 實作 Isolation Forest 及 AutoEncoder 兩種異常偵測方法，並比較其在測試集上的偵測成效（準確率、精確率、召回率、F1 分數）。
 - 適合理解高維資料處理、特徵選擇、無監督異常偵測與深度學習應用於資安領域。
+
+## Week4（Advanced）
+- 邀請 AI team Vincent 跟大家分享更多異常偵測算法
 
 ## 使用方式
 1. 安裝 Python 3.11。
