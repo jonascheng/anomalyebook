@@ -51,6 +51,8 @@
 ## Week4（Advanced）
 - 邀請 AI team Vincent 跟大家分享更多異常偵測算法
 
+---
+
 ## 使用方式
 1. 安裝 Python 3.11。
 2. 執行 `make setup` 安裝所有依賴。
