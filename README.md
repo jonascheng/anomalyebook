@@ -36,7 +36,7 @@
 ## Week3
 
 ### 06_autoencoder-anomaly-detection.ipynb
-- 以 pyod AutoEncoder 建構多維度異常偵測模型。
+- 以 `pyod` AutoEncoder 建構多維度異常偵測模型。
 - 模型訓練、異常分數與標記視覺化、成效分析。
 - 教學流程簡潔，無需手動設計神經網路結構。
 
