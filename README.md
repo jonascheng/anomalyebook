@@ -46,7 +46,6 @@
 - 利用 SelectPercentile + ANOVA F-value 進行特徵選擇，僅保留最具區辨力的前 10% 特徵。
 - 資料標準化與 PCA 2D/3D 降維視覺化，觀察正常與異常分布。
 - 實作 Isolation Forest 及 AutoEncoder 兩種異常偵測方法，並比較其在測試集上的偵測成效（準確率、精確率、召回率、F1 分數）。
-- 適合理解高維資料處理、特徵選擇、無監督異常偵測與深度學習應用於資安領域。
 
 ## Week4（Advanced）
 - 邀請 AI team Vincent 跟大家分享更多異常偵測算法
